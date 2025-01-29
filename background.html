@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .banner{
+            background-image: url("https://images.pexels.com/photos/19377629/pexels-photo-19377629/free-photo-of-bunch-of-flowers-in-a-vase-and-fruits.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+            height: 450px;
+            text-align: center;
+            align-content: center;
+            color: white;
+            position: relative;
+    
+        }
+        span{
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            color:white;
+        }
+        .photos {
+            margin-top: 4rem;
+            column-count: 3; 
+            column-gap: 10px; 
+        }
+
+        .photos img {
+            width: 100%; 
+            max-width: 400px;
+            display: flex; 
+            margin-bottom: 10px; 
+            border-radius: 10px;
+        }
+            .menu ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: center;
+                column-gap: 50px;
+                align-items: center;
+
+            }
+    </style>
+    
+</head>
+<body>
+    <div class="banner">
+        <h1>The best free stock photos, royalty free image & video</h1>
+        <select name="photo/video" id="">
+            <option value="">Photo</option>
+            <option value="">Video</option>
+        </select>
+        <input type="text" placeholder="Search for free photos">
+        <button>search</button>
+        <span>Photo by Artem Zhukov</span>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>Home</li>
+            <li>Video</li>
+            <li>Leaderboard</li>
+            <li>Challenges</li>
+        </ul>
+    </div>
+    <p>Free Stock Photos</p>
+   <div class="photos">
+    <div class="items"><img src="https://images.pexels.com/photos/30411544/pexels-photo-30411544/free-photo-of-casual-coffee-break-with-newspaper-in-cafe.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=""></div>
+    <div class="items"><img src="https://images.pexels.com/photos/30384643/pexels-photo-30384643/free-photo-of-woman-photographing-modern-urban-architecture.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=""></div>
+    <div class="items"><img src="https://images.pexels.com/photos/30372288/pexels-photo-30372288/free-photo-of-fashionable-steps-amidst-autumn-leaves.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=""></div>
+    <div class="items"><img src="https://images.pexels.com/photos/9620214/pexels-photo-9620214.png?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=""></div>
+    <div class="items"><img src="https://images.pexels.com/photos/28726636/pexels-photo-28726636/free-photo-of-elegant-woman-walking-in-white-suit-and-heels.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=""></div>
+
+   </div>
+</body>
+</html>
